@@ -1,7 +1,7 @@
 # microshell      subject.en.txt 
-Assignment name:    microshell 
+Assignment name:    microshell \
 Expected files:           microshell.c  \
-Allowed functions:    malloc,  free,  write,  close,  fork,  waitpid,  signal,  kill,  exit,  chdir,  execve,  dup,  dup2,  pipe,  strcmp,  strncmp \
+Allowed functions:    malloc,  free,  write,  close,  fork,  waitpid,  signal,  kill,  exit,  chdir,  execve,  dup,  dup2,  pipe,  strcmp,  strncmp 
 ____________________________________________________________________________________________________________
 
 ### Write a program that will behave like executing a shell command 
@@ -22,11 +22,11 @@ ________________________________________________________________________________
 
 ### for example this should work:
 $>./microshell  /bin/ls  "|"  /usr/bin/grep  microshell  ";"  /bin/echo  i love my microshell
-microshell \
-i love my microshell \
-$>./microshell  /bin/echo  i love 42  "|"  "/usr/bin/grep"  i  ";"  ";"  ";"  "/bin/echo" YEAH \
-i love 42 \
-YEAH \
+microshell  \
+i love my microshell  \
+$>./microshell  /bin/echo  i love 42  "|"  "/usr/bin/grep"  i  ";"  ";"  ";"  "/bin/echo" YEAH  \
+i love 42  \
+YEAH  \
 
 Hints: Don't forget to pass the environment variable to execve \
 Hints: Do not leak file descriptors! 
