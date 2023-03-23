@@ -22,7 +22,7 @@ ________________________________________________________________________________
 • Your program should be able to manage more than hundreds of "|" even if we limit the number of "open files" to less than 30. 
 
 ### for example this should work:
-$>./microshell  /bin/ls  "|"  /usr/bin/grep  microshell  ";"  /bin/echo  i love my microshell
+$>./microshell  /bin/ls  "|"  /usr/bin/grep  microshell  ";"  /bin/echo  i love my microshell \
 microshell  \
 i love my microshell  \
 $>./microshell  /bin/echo  i love 42  "|"  "/usr/bin/grep"  i  ";"  ";"  ";"  "/bin/echo" YEAH  \
