@@ -27,7 +27,7 @@ microshell  \
 i love my microshell  \
 $>./microshell  /bin/echo  i love 42  "|"  "/usr/bin/grep"  i  ";"  ";"  ";"  "/bin/echo" YEAH  \
 i love 42  \
-YEAH  \
+YEAH  
 
 Hints: Don't forget to pass the environment variable to execve \
 Hints: Do not leak file descriptors! 
