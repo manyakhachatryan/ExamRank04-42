@@ -1,5 +1,5 @@
 # microshell      subject.en.txt 
-Assignment name:    microshell \
+Assignment name:    microshell 
 Expected files:           microshell.c  \
 Allowed functions:    malloc,  free,  write,  close,  fork,  waitpid,  signal,  kill,  exit,  chdir,  execve,  dup,  dup2,  pipe,  strcmp,  strncmp \
 ____________________________________________________________________________________________________________
